@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C03B63A01D12ED1E009DB99F /* CutImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C03B639F1D12ED1E009DB99F /* CutImage.m */; };
+		C064E3801D11A4A800442DB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C064E37F1D11A4A800442DB7 /* main.m */; };
+		C064E3831D11A4A800442DB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C064E3821D11A4A800442DB7 /* AppDelegate.m */; };
+		C064E3861D11A4A800442DB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C064E3851D11A4A800442DB7 /* ViewController.m */; };
+		C064E3891D11A4A800442DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C064E3871D11A4A800442DB7 /* Main.storyboard */; };
+		C064E38B1D11A4A800442DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C064E38A1D11A4A800442DB7 /* Assets.xcassets */; };
+		C064E38E1D11A4A800442DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C064E38C1D11A4A800442DB7 /* LaunchScreen.storyboard */; };
+		C064E3991D11A4A900442DB7 /* Quatz2DBasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C064E3981D11A4A900442DB7 /* Quatz2DBasicTests.m */; };
+		C064E3A41D11A4A900442DB7 /* Quatz2DBasicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C064E3A31D11A4A900442DB7 /* Quatz2DBasicUITests.m */; };
+		C064E3B31D11A4FD00442DB7 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C064E3B21D11A4FD00442DB7 /* CustomView.m */; };
+		C064E3B91D11AB8600442DB7 /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C064E3B81D11AB8600442DB7 /* TextView.m */; };
+		C064E3BE1D122EFE00442DB7 /* RectangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C064E3BD1D122EFE00442DB7 /* RectangleView.m */; };
+		C07C9E991D1766380061D759 /* LetterPaperEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = C07C9E981D1766380061D759 /* LetterPaperEffectView.m */; };
+		C08D88F71D16D02F00BD1144 /* ZoomCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C08D88F61D16D02F00BD1144 /* ZoomCircleView.m */; };
+		C08D88FA1D16E02200BD1144 /* DrawPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C08D88F91D16E02200BD1144 /* DrawPath.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C064E3951D11A4A900442DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C064E3731D11A4A800442DB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C064E37A1D11A4A800442DB7;
+			remoteInfo = Quatz2DBasic;
+		};
+		C064E3A01D11A4A900442DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C064E3731D11A4A800442DB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C064E37A1D11A4A800442DB7;
+			remoteInfo = Quatz2DBasic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C03B639E1D12ED1E009DB99F /* CutImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutImage.h; sourceTree = "<group>"; };
+		C03B639F1D12ED1E009DB99F /* CutImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutImage.m; sourceTree = "<group>"; };
+		C064E37B1D11A4A800442DB7 /* Quatz2DBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quatz2DBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C064E37F1D11A4A800442DB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C064E3811D11A4A800442DB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C064E3821D11A4A800442DB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C064E3841D11A4A800442DB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C064E3851D11A4A800442DB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C064E3881D11A4A800442DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C064E38A1D11A4A800442DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C064E38D1D11A4A800442DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C064E38F1D11A4A800442DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C064E3941D11A4A900442DB7 /* Quatz2DBasicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quatz2DBasicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C064E3981D11A4A900442DB7 /* Quatz2DBasicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quatz2DBasicTests.m; sourceTree = "<group>"; };
+		C064E39A1D11A4A900442DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C064E39F1D11A4A900442DB7 /* Quatz2DBasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quatz2DBasicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C064E3A31D11A4A900442DB7 /* Quatz2DBasicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quatz2DBasicUITests.m; sourceTree = "<group>"; };
+		C064E3A51D11A4A900442DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C064E3B11D11A4FD00442DB7 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		C064E3B21D11A4FD00442DB7 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		C064E3B71D11AB8600442DB7 /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		C064E3B81D11AB8600442DB7 /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
+		C064E3BC1D122EFE00442DB7 /* RectangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleView.h; sourceTree = "<group>"; };
+		C064E3BD1D122EFE00442DB7 /* RectangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleView.m; sourceTree = "<group>"; };
+		C07C9E971D1766380061D759 /* LetterPaperEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetterPaperEffectView.h; sourceTree = "<group>"; };
+		C07C9E981D1766380061D759 /* LetterPaperEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetterPaperEffectView.m; sourceTree = "<group>"; };
+		C08D88F51D16D02F00BD1144 /* ZoomCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomCircleView.h; sourceTree = "<group>"; };
+		C08D88F61D16D02F00BD1144 /* ZoomCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomCircleView.m; sourceTree = "<group>"; };
+		C08D88F81D16E02200BD1144 /* DrawPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPath.h; sourceTree = "<group>"; };
+		C08D88F91D16E02200BD1144 /* DrawPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPath.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C064E3781D11A4A800442DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C064E3911D11A4A900442DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C064E39C1D11A4A900442DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C064E3721D11A4A800442DB7 = {
+			isa = PBXGroup;
+			children = (
+				C064E37D1D11A4A800442DB7 /* Quatz2DBasic */,
+				C064E3971D11A4A900442DB7 /* Quatz2DBasicTests */,
+				C064E3A21D11A4A900442DB7 /* Quatz2DBasicUITests */,
+				C064E37C1D11A4A800442DB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C064E37C1D11A4A800442DB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C064E37B1D11A4A800442DB7 /* Quatz2DBasic.app */,
+				C064E3941D11A4A900442DB7 /* Quatz2DBasicTests.xctest */,
+				C064E39F1D11A4A900442DB7 /* Quatz2DBasicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C064E37D1D11A4A800442DB7 /* Quatz2DBasic */ = {
+			isa = PBXGroup;
+			children = (
+				C064E3811D11A4A800442DB7 /* AppDelegate.h */,
+				C064E3821D11A4A800442DB7 /* AppDelegate.m */,
+				C064E3841D11A4A800442DB7 /* ViewController.h */,
+				C064E3851D11A4A800442DB7 /* ViewController.m */,
+				C064E3B11D11A4FD00442DB7 /* CustomView.h */,
+				C064E3B21D11A4FD00442DB7 /* CustomView.m */,
+				C064E3B71D11AB8600442DB7 /* TextView.h */,
+				C064E3B81D11AB8600442DB7 /* TextView.m */,
+				C064E3BC1D122EFE00442DB7 /* RectangleView.h */,
+				C064E3BD1D122EFE00442DB7 /* RectangleView.m */,
+				C03B639E1D12ED1E009DB99F /* CutImage.h */,
+				C03B639F1D12ED1E009DB99F /* CutImage.m */,
+				C08D88F51D16D02F00BD1144 /* ZoomCircleView.h */,
+				C08D88F61D16D02F00BD1144 /* ZoomCircleView.m */,
+				C08D88F81D16E02200BD1144 /* DrawPath.h */,
+				C08D88F91D16E02200BD1144 /* DrawPath.m */,
+				C07C9E971D1766380061D759 /* LetterPaperEffectView.h */,
+				C07C9E981D1766380061D759 /* LetterPaperEffectView.m */,
+				C064E3871D11A4A800442DB7 /* Main.storyboard */,
+				C064E38A1D11A4A800442DB7 /* Assets.xcassets */,
+				C064E38C1D11A4A800442DB7 /* LaunchScreen.storyboard */,
+				C064E38F1D11A4A800442DB7 /* Info.plist */,
+				C064E37E1D11A4A800442DB7 /* Supporting Files */,
+			);
+			path = Quatz2DBasic;
+			sourceTree = "<group>";
+		};
+		C064E37E1D11A4A800442DB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C064E37F1D11A4A800442DB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C064E3971D11A4A900442DB7 /* Quatz2DBasicTests */ = {
+			isa = PBXGroup;
+			children = (
+				C064E3981D11A4A900442DB7 /* Quatz2DBasicTests.m */,
+				C064E39A1D11A4A900442DB7 /* Info.plist */,
+			);
+			path = Quatz2DBasicTests;
+			sourceTree = "<group>";
+		};
+		C064E3A21D11A4A900442DB7 /* Quatz2DBasicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C064E3A31D11A4A900442DB7 /* Quatz2DBasicUITests.m */,
+				C064E3A51D11A4A900442DB7 /* Info.plist */,
+			);
+			path = Quatz2DBasicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C064E37A1D11A4A800442DB7 /* Quatz2DBasic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C064E3A81D11A4A900442DB7 /* Build configuration list for PBXNativeTarget "Quatz2DBasic" */;
+			buildPhases = (
+				C064E3771D11A4A800442DB7 /* Sources */,
+				C064E3781D11A4A800442DB7 /* Frameworks */,
+				C064E3791D11A4A800442DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quatz2DBasic;
+			productName = Quatz2DBasic;
+			productReference = C064E37B1D11A4A800442DB7 /* Quatz2DBasic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C064E3931D11A4A900442DB7 /* Quatz2DBasicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C064E3AB1D11A4A900442DB7 /* Build configuration list for PBXNativeTarget "Quatz2DBasicTests" */;
+			buildPhases = (
+				C064E3901D11A4A900442DB7 /* Sources */,
+				C064E3911D11A4A900442DB7 /* Frameworks */,
+				C064E3921D11A4A900442DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C064E3961D11A4A900442DB7 /* PBXTargetDependency */,
+			);
+			name = Quatz2DBasicTests;
+			productName = Quatz2DBasicTests;
+			productReference = C064E3941D11A4A900442DB7 /* Quatz2DBasicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C064E39E1D11A4A900442DB7 /* Quatz2DBasicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C064E3AE1D11A4A900442DB7 /* Build configuration list for PBXNativeTarget "Quatz2DBasicUITests" */;
+			buildPhases = (
+				C064E39B1D11A4A900442DB7 /* Sources */,
+				C064E39C1D11A4A900442DB7 /* Frameworks */,
+				C064E39D1D11A4A900442DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C064E3A11D11A4A900442DB7 /* PBXTargetDependency */,
+			);
+			name = Quatz2DBasicUITests;
+			productName = Quatz2DBasicUITests;
+			productReference = C064E39F1D11A4A900442DB7 /* Quatz2DBasicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C064E3731D11A4A800442DB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ligen;
+				TargetAttributes = {
+					C064E37A1D11A4A800442DB7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C064E3931D11A4A900442DB7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C064E37A1D11A4A800442DB7;
+					};
+					C064E39E1D11A4A900442DB7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C064E37A1D11A4A800442DB7;
+					};
+				};
+			};
+			buildConfigurationList = C064E3761D11A4A800442DB7 /* Build configuration list for PBXProject "Quatz2DBasic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C064E3721D11A4A800442DB7;
+			productRefGroup = C064E37C1D11A4A800442DB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C064E37A1D11A4A800442DB7 /* Quatz2DBasic */,
+				C064E3931D11A4A900442DB7 /* Quatz2DBasicTests */,
+				C064E39E1D11A4A900442DB7 /* Quatz2DBasicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C064E3791D11A4A800442DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C064E38E1D11A4A800442DB7 /* LaunchScreen.storyboard in Resources */,
+				C064E38B1D11A4A800442DB7 /* Assets.xcassets in Resources */,
+				C064E3891D11A4A800442DB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C064E3921D11A4A900442DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C064E39D1D11A4A900442DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C064E3771D11A4A800442DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07C9E991D1766380061D759 /* LetterPaperEffectView.m in Sources */,
+				C064E3BE1D122EFE00442DB7 /* RectangleView.m in Sources */,
+				C08D88FA1D16E02200BD1144 /* DrawPath.m in Sources */,
+				C03B63A01D12ED1E009DB99F /* CutImage.m in Sources */,
+				C064E3861D11A4A800442DB7 /* ViewController.m in Sources */,
+				C064E3B91D11AB8600442DB7 /* TextView.m in Sources */,
+				C064E3B31D11A4FD00442DB7 /* CustomView.m in Sources */,
+				C08D88F71D16D02F00BD1144 /* ZoomCircleView.m in Sources */,
+				C064E3831D11A4A800442DB7 /* AppDelegate.m in Sources */,
+				C064E3801D11A4A800442DB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C064E3901D11A4A900442DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C064E3991D11A4A900442DB7 /* Quatz2DBasicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C064E39B1D11A4A900442DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C064E3A41D11A4A900442DB7 /* Quatz2DBasicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C064E3961D11A4A900442DB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C064E37A1D11A4A800442DB7 /* Quatz2DBasic */;
+			targetProxy = C064E3951D11A4A900442DB7 /* PBXContainerItemProxy */;
+		};
+		C064E3A11D11A4A900442DB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C064E37A1D11A4A800442DB7 /* Quatz2DBasic */;
+			targetProxy = C064E3A01D11A4A900442DB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C064E3871D11A4A800442DB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C064E3881D11A4A800442DB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C064E38C1D11A4A800442DB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C064E38D1D11A4A800442DB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C064E3A61D11A4A900442DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C064E3A71D11A4A900442DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C064E3A91D11A4A900442DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Quatz2DBasic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingshanliuyun.Quatz2DBasic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C064E3AA1D11A4A900442DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Quatz2DBasic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingshanliuyun.Quatz2DBasic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C064E3AC1D11A4A900442DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Quatz2DBasicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingshanliuyun.Quatz2DBasicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quatz2DBasic.app/Quatz2DBasic";
+			};
+			name = Debug;
+		};
+		C064E3AD1D11A4A900442DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Quatz2DBasicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingshanliuyun.Quatz2DBasicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quatz2DBasic.app/Quatz2DBasic";
+			};
+			name = Release;
+		};
+		C064E3AF1D11A4A900442DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Quatz2DBasicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingshanliuyun.Quatz2DBasicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Quatz2DBasic;
+			};
+			name = Debug;
+		};
+		C064E3B01D11A4A900442DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Quatz2DBasicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingshanliuyun.Quatz2DBasicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Quatz2DBasic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C064E3761D11A4A800442DB7 /* Build configuration list for PBXProject "Quatz2DBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C064E3A61D11A4A900442DB7 /* Debug */,
+				C064E3A71D11A4A900442DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C064E3A81D11A4A900442DB7 /* Build configuration list for PBXNativeTarget "Quatz2DBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C064E3A91D11A4A900442DB7 /* Debug */,
+				C064E3AA1D11A4A900442DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C064E3AB1D11A4A900442DB7 /* Build configuration list for PBXNativeTarget "Quatz2DBasicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C064E3AC1D11A4A900442DB7 /* Debug */,
+				C064E3AD1D11A4A900442DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C064E3AE1D11A4A900442DB7 /* Build configuration list for PBXNativeTarget "Quatz2DBasicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C064E3AF1D11A4A900442DB7 /* Debug */,
+				C064E3B01D11A4A900442DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C064E3731D11A4A800442DB7 /* Project object */;
+}
